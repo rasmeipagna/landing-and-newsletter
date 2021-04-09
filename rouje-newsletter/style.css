@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Times';
+    src: url('Times-Romanttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+h2, h3{ 
+    margin-top:40px;   
+    font-size:40px;
+    text-align:center;
+    font-family: 'Bebas Neue';
+    color:#fff;
+}
+.logo-rouje{
+    width:100%;
+    margin:40px auto;
+    padding-top:40px;
+    text-align:center;
+}
+header.background-header {
+    background-image: url(img/header.jpg);
+    background-position:  top center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    height:1180px;
+
+} 
+section.background{
+    background-color:#17244b;
+}
+section .content{
+    width:680px;
+    margin:0 auto;
+}
+p.text-global{
+    font-family: 'Times';
+    color:#fff;
+    text-align:center;
+    padding:10px 70px;
+    font-size:20px;
+}
+
+.bouton{
+    width:fit-content;
+    margin:50px auto;
+
+}
+.bouton a{
+    font-family: 'Bebas Neue';
+    color:#fff;
+    font-size:30px;
+    width:150px;
+    padding:10px 30px;
+    margin:0 auto;
+    background-color:#000;
+    border:1px solid #000;
+    text-decoration:none;
+}
+.bouton a:hover{
+    color:#000;
+    background-color:#fff;
+    transition: 0.3s;
+}
+img.column{
+    width:95%;
+    margin:0 10px;
+}
+
+footer{
+    background-color:#17244b;
+    height:100px;
+}

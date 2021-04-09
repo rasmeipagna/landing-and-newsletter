@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'GT America';
+    src: url('GTAmerica-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeue-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1, h2, h3{ 
+    margin-top:40px;   
+    font-size:40px;
+    text-align:center;
+    font-family: 'Bebas Neue';
+    color:#fff;
+}
+header.background-header{
+    background-image: url(img/visuel-1.jpg);
+    background-position:  top center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:692px;
+}
+section.background{
+    background-color:#17244b;
+}
+section .content{
+    width:980px;
+    margin:0 auto;
+}
+p.text-global{
+    font-family: 'GT America';
+    color:#fff;
+    text-align:center;
+    padding:10px 70px;
+
+}
+figure.visuel-2{
+    background-image: url(img/visuel-2.jpg);
+    background-position:  top center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width:100%;
+    height:585px;
+    position:relative;
+}
+figure.visuel-13{
+    background-image: url(img/visuel-13.jpg);
+    background-position:  top center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width:80%;
+    height:470px;
+    position:relative;
+    margin:0 auto;
+}
+figure.visuel-16{
+    background-image: url(img/visuel-16.jpg);
+    background-position:  top center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width:80%;
+    height:470px;
+    position:relative;
+    margin:0 auto 40px auto;
+}
+
+.text-above-img{
+    position:absolute;
+    bottom:0;
+    width: calc(100% - 80px);
+}
+.text-above-img p{
+    text-align:center;
+}
+.text-above-img a{
+    color:#000;
+}
+.bouton{
+    width:fit-content;
+    margin:50px auto;
+
+}
+.bouton a{
+    font-family: 'Bebas Neue';
+    color:#000;
+    font-size:30px;
+    width:150px;
+    padding:10px 30px;
+    margin:0 auto;
+    background-color:#fff;
+    border:1px solid #fff;
+    text-decoration:none;
+}
+.bouton a:hover{
+    color:#fff;
+    background-color:#17244b;
+    transition: 0.3s;
+}
+img.column{
+    width:95%;
+    margin:0 10px;
+}
+@media screen and (max-width: 740px){
+    .mobile-off{
+        display:none !important;
+    }
+}
+.legend img{
+    display:block;
+    margin: 0 auto;
+}
+.legend p{
+    color:#fff;  
+    text-align:center;  
+}
+.legend p a{
+    color:#fff;
+
+}
+.legend .column.solo{
+    width:80%;
+    
+}
+footer{
+    background-color:#17244b;
+    height:100px;
+}
